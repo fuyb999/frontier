@@ -67,11 +67,6 @@
     "@algolia/requester-common" "4.14.2"
     "@algolia/transporter" "4.14.2"
 
-"@algolia/client-common@5.21.0":
-  version "5.21.0"
-  resolved "https://registry.npmjs.org/@algolia/client-common/-/client-common-5.21.0.tgz"
-  integrity sha512-iHLgDQFyZNe9M16vipbx6FGOA8NoMswHrfom/QlCGoyh7ntjGvfMb+J2Ss8rRsAlOWluv8h923Ku3QVaB0oWDQ==
-
 "@algolia/client-personalization@4.14.2":
   version "4.14.2"
   resolved "https://registry.npmjs.org/@algolia/client-personalization/-/client-personalization-4.14.2.tgz"
@@ -81,17 +76,7 @@
     "@algolia/requester-common" "4.14.2"
     "@algolia/transporter" "4.14.2"
 
-"@algolia/client-search@>= 4.9.1 < 6":
-  version "5.21.0"
-  resolved "https://registry.npmjs.org/@algolia/client-search/-/client-search-5.21.0.tgz"
-  integrity sha512-nZfgJH4njBK98tFCmCW1VX/ExH4bNOl9DSboxeXGgvhoL0fG1+4DDr/mrLe21OggVCQqHwXBMh6fFInvBeyhiQ==
-  dependencies:
-    "@algolia/client-common" "5.21.0"
-    "@algolia/requester-browser-xhr" "5.21.0"
-    "@algolia/requester-fetch" "5.21.0"
-    "@algolia/requester-node-http" "5.21.0"
-
-"@algolia/client-search@4.14.2":
+"@algolia/client-search@>= 4.9.1 < 6", "@algolia/client-search@4.14.2":
   version "4.14.2"
   resolved "https://registry.npmjs.org/@algolia/client-search/-/client-search-4.14.2.tgz"
   integrity sha512-L5zScdOmcZ6NGiVbLKTvP02UbxZ0njd5Vq9nJAmPFtjffUSOGEp11BmD2oMJ5QvARgx2XbX4KzTTNS5ECYIMWw==
@@ -124,24 +109,10 @@
   dependencies:
     "@algolia/requester-common" "4.14.2"
 
-"@algolia/requester-browser-xhr@5.21.0":
-  version "5.21.0"
-  resolved "https://registry.npmjs.org/@algolia/requester-browser-xhr/-/requester-browser-xhr-5.21.0.tgz"
-  integrity sha512-Iw+Yj5hOmo/iixHS94vEAQ3zi5GPpJywhfxn1el/zWo4AvPIte/+1h9Ywgw/+3M7YBj4jgAkScxjxQCxzLBsjA==
-  dependencies:
-    "@algolia/client-common" "5.21.0"
-
 "@algolia/requester-common@4.14.2":
   version "4.14.2"
   resolved "https://registry.npmjs.org/@algolia/requester-common/-/requester-common-4.14.2.tgz"
   integrity sha512-73YQsBOKa5fvVV3My7iZHu1sUqmjjfs9TteFWwPwDmnad7T0VTCopttcsM3OjLxZFtBnX61Xxl2T2gmG2O4ehg==
-
-"@algolia/requester-fetch@5.21.0":
-  version "5.21.0"
-  resolved "https://registry.npmjs.org/@algolia/requester-fetch/-/requester-fetch-5.21.0.tgz"
-  integrity sha512-Z00SRLlIFj3SjYVfsd9Yd3kB3dUwQFAkQG18NunWP7cix2ezXpJqA+xAoEf9vc4QZHdxU3Gm8gHAtRiM2iVaTQ==
-  dependencies:
-    "@algolia/client-common" "5.21.0"
 
 "@algolia/requester-node-http@4.14.2":
   version "4.14.2"
@@ -149,13 +120,6 @@
   integrity sha512-oDbb02kd1o5GTEld4pETlPZLY0e+gOSWjWMJHWTgDXbv9rm/o2cF7japO6Vj1ENnrqWvLBmW1OzV9g6FUFhFXg==
   dependencies:
     "@algolia/requester-common" "4.14.2"
-
-"@algolia/requester-node-http@5.21.0":
-  version "5.21.0"
-  resolved "https://registry.npmjs.org/@algolia/requester-node-http/-/requester-node-http-5.21.0.tgz"
-  integrity sha512-WqU0VumUILrIeVYCTGZlyyZoC/tbvhiyPxfGRRO1cSjxN558bnJLlR2BvS0SJ5b75dRNK7HDvtXo2QoP9eLfiA==
-  dependencies:
-    "@algolia/client-common" "5.21.0"
 
 "@algolia/transporter@4.14.2":
   version "4.14.2"
@@ -5006,11 +4970,6 @@ fs.realpath@^1.0.0:
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
 
-fsevents@~2.3.2:
-  version "2.3.2"
-  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
-  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
-
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
@@ -9472,9 +9431,9 @@ typedarray-to-buffer@^3.1.5:
     is-typedarray "^1.0.0"
 
 "typescript@>= 2.7":
-  version "5.8.2"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-5.8.2.tgz"
-  integrity sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==
+  version "5.9.2"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-5.9.2.tgz"
+  integrity sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==
 
 ua-parser-js@^0.7.30:
   version "0.7.35"
